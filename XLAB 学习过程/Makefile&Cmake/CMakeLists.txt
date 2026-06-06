@@ -1,0 +1,5 @@
+PROJECT (MAIN)
+SET(SRC_LIST main.c print1.c print.c)
+message(STATUS "This is BINARY dir" ${MAIN_BINARY_DIR})
+message(STATUS "This is SOURCE dir" ${MAIN_SOURCE_DIR})
+add_executable(main ${SRC_LIST})
